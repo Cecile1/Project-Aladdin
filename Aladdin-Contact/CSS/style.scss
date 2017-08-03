@@ -1,0 +1,119 @@
+$bgc1:black;
+$leftmargin1:10px;
+$margintop1:-7px;
+$marginbottom1:12px;
+$width2:70%;
+$width1:100%;
+$family1:'Mirza',sans-serif;
+$family2:'Roboto',sans-serif;
+$margin1:0px;
+$padding1:0px;
+$bgc2:#383838;
+$color1:#fff;
+$marginspecial: 30px auto;
+$height1:135px;
+$width3:150px;
+$padding2:30px;
+$fntsize:22px;
+$leftpadding:20px;
+$maxwidth1:460px;
+$height2:120px;
+$topadding1:10px;
+$floatleft1:left;
+$textalign1:center;
+$bottompadding:100px;
+body {
+  background-color:$bgc1;
+
+}
+
+.navbar-brand a {
+}
+.navbar-brand img {
+  margin-left:$leftmargin1;
+  margin-top:$margintop1;
+  margin-bottom:$marginbottom1;
+}
+
+.navbar-default{
+ width:$width1;
+
+
+}
+img{
+  width:$width2;
+}
+
+
+
+
+
+
+h1,h2,h3,h4{
+	font-family:$family1;
+
+}
+
+p,label{
+	font-family:$family2;
+
+}
+
+.navbar{
+	font-family:$family2;
+}
+
+#Formulairedecontact{
+	margin:$margin1;
+	padding:$padding1;
+	width:$width1;
+	background:$bgc2;
+	color:$color1;
+}
+
+form{
+	margin:$marginspecial;
+padding-bottom:$bottompadding;
+
+}
+
+textarea.form-control {
+    height:$height1;
+
+}
+
+.submit{
+	width:$width3;
+}
+
+
+.brand-name {
+	padding-top:$padding2;
+}
+
+footer  .fa{
+	font-size:$fntsize;
+}
+.social{
+	padding-top:$padding2;
+}
+
+.fa-space{
+	padding-left:$leftpadding;
+}
+/*Media Queries*/
+@media (max-width:$maxwidth1){
+	footer{
+		height:$height2;
+	}
+
+	.social{
+	padding-top:$topadding1;
+	float:$floatleft1;
+	text-align:$textalign1;
+}
+}
+
+.binfd{
+  width:$width1;
+}
