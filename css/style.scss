@@ -1,5 +1,9 @@
+
 body {
-  background-color: black;
+
+}
+nav {
+  z-index: 1;
 }
 
 .video-container {
@@ -16,8 +20,7 @@ video {
   z-index: -1;
   width: 100%;
 }
-.navbar-brand a {
-}
+
 .navbar-brand img {
   margin-top: -12px;
   height: 2em;
@@ -26,7 +29,7 @@ video {
 
 
 .navbar {
-  background-color: #322e51;
+  background-color: black;
   opacity: 0.8;
   border: none;
 
@@ -43,7 +46,6 @@ line-height: 24px;
 
 
 }
-
 .navbar-nav > li > a{
   color: #fff !important;
 }
