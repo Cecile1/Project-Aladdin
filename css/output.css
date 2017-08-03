@@ -1,0 +1,36 @@
+body {
+  background-color: black; }
+
+.video-container {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  overflow: hidden; }
+
+video {
+  position: absolute;
+  z-index: -1;
+  width: 100%; }
+
+.navbar-brand > img {
+  margin-bottom: 12px;
+  height: 2em;
+  width: 3em; }
+
+.navbar {
+  background-color: #322e51;
+  opacity: 0.8;
+  border: none; }
+
+.navbar-nav {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px; }
+
+.navbar-nav > li > a {
+  color: #fff !important; }
+
+/*# sourceMappingURL=output.css.map */
