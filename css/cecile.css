@@ -3,6 +3,8 @@ background-color: #FFF;
 }
 .container {
 padding-top: 40px;
+font-family: 'Quicksand', sans-serif;
+margin-left: 10px;
 }
 
 
@@ -15,7 +17,8 @@ font-family: "Quicksand", sans-serif; font-weight: 400; line-height: 1.1; color:
 }
 
 .price {
-font-size: 25px; float: left;
+font-size: 25px;
+float: left;
 }
 .pricing_header {
    background: none repeat scroll 0% 0% rgb(44, 62, 80);
@@ -54,4 +57,19 @@ font-size: 25px; float: left;
 .space {
 height: 2px;
  background-color: #75b1ae;
+}
+
+.text-product {
+margin-top: 40px;
+font-size: 20px;
+line-height: 40px;
+}
+
+.magic {
+font-size: 60px;
+}
+
+.bolder {
+font-weight: bold;
+color: #000E2E;
 }
