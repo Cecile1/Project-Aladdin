@@ -1,11 +1,18 @@
 $color-black : #000000;
 $color-white : #fff;
 
+html {
+
+
+}
+
 body {
 margin: 0;
 padding: 0;
 box-sizing: border-box;
+
 }
+
 
       pre {
           tab-size: 8;
@@ -16,13 +23,23 @@ nav {
   position: absolute;
   top: 0;
   z-index: 5;
-}
-.navbar-brand {
-    font-size: 24px;
+
 }
 
+
+.navbar-brand {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
 .navbar-nav a {
-color: $color-white
+color: $color-white;
+display: flex;
+justify-content: center;
 }
 .navbar-nav a:hover {
   background-color: transparent !important;
@@ -30,6 +47,7 @@ color: $color-white
 
 .navbar-container {
     padding: 20px 0 20px 0;
+
 }
 
 .navbar.navbar-fixed-top.fixed-theme {
@@ -53,6 +71,8 @@ color: $color-white
 .navbar-container{
     transition: 0.8s;
     -webkit-transition:  0.8s;
+
+
 }
 
 
@@ -98,7 +118,9 @@ video {
 
 //       END SEPARATOR BETWEEN VIDEO BANNER AND FIRST SECTION        //
 
-
+.montage {
+  text-align: center;
+}
 
 
 
@@ -165,52 +187,14 @@ video {
 
     transition: 1s;
 
-    -webkit-animation:rainbow 1s infinite;
--ms-animation:rainbow 1s infinite;
--o-animation:rainbow 1s infinite;
-animation:rainbow 1s infinite;
+    -webkit-animation:rainbow 4s infinite;
+-ms-animation:rainbow 4s infinite;
+-o-animation:rainbow 4s infinite;
+animation:rainbow 4s infinite;
     }
 
-    @-webkit-keyframes rainbow {
-0% {color: #ff0000;}
-10% {color: #ff8000;}
-20% {color: #ffff00;}
-30% {color: #80ff00;}
-40% {color: #00ff00;}
-50% {color: #00ff80;}
-60% {color: #00ffff;}
-70% {color: #0080ff;}
-80% {color: #0000ff;}
-90% {color: #8000ff;}
-100% {color: #ff0080;}
-}
-@-ms-keyframes rainbow {
-0% {color: #ff0000;}
-10% {color: #ff8000;}
-20% {color: #ffff00;}
-30% {color: #80ff00;}
-40% {color: #00ff00;}
-50% {color: #00ff80;}
-60% {color: #00ffff;}
-70% {color: #0080ff;}
-80% {color: #0000ff;}
-90% {color: #8000ff;}
-100% {color: #ff0080;}
-}
-@-o-keyframes rainbow {
-0% {color: #ff0000;}
-10% {color: #ff8000;}
-20% {color: #ffff00;}
-30% {color: #80ff00;}
-40% {color: #00ff00;}
-50% {color: #00ff80;}
-60% {color: #00ffff;}
-70% {color: #0080ff;}
-80% {color: #0000ff;}
-90% {color: #8000ff;}
-100% {color: #ff0080;}
-}
-@keyframes rainbow {
+
+@keyframes {
 0% {color: #ff0000;}
 10% {color: #ff8000;}
 20% {color: #ffff00;}
