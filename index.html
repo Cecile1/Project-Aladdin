@@ -19,49 +19,50 @@
 </head>
 <body>
 
+
   <!--                     START NAVBAR !                   -->
 
-  <nav class="navbar navbar-default">
-    <div class="container">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+ <!-- Fixed navbar -->
+  <nav id="header" class="navbar navbar-fixed-top">
+    <div id="header-container" class="container navbar-container">
+
+     <div class="navbar-header col-xs-12" >
+
+       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a style="margin-top:-6px;" class="navbar-brand" href="#"><img src="images/Flying.png" alt=""></a>
-      </div>
+        <a id="brand" class="navbar-brand" style="display: flex; justify-content: center; color: green;" href="#">Flying Carpet</a>
 
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul style="border:none;" class="nav navbar-nav">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Products</a></li>
-          <li><a href="#">Teams</a></li>
-          <li><a href="#">Contact us</a></li>
+     </div>
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="#">PRODUCTS</a></li>
+          <li><a href="#">ABOUT US</a></li>
+          <li><a href="Aladdin/conta.html">CONTACT</a></li>
+        </ul>
 
-          <li style ="display:none;" class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span style="class="caret""></span></a>
-            <li role="separator" class="divider"></li>
-          </li>
-        </div>
-      </div>
-    </nav>
-    <!--                         END NAVBAR !
+     </div><!-- /.nav-collapse -->
 
-               -->
+   </div><!-- /.container -->
+  </nav><!-- /.navbar -->
+
+ <!--                         END NAVBAR !!!                 -->
+
  <!-- CECILE STARTS -->
+ <section id="cecile">
  <!-- price & service -->
  <div class="container">
 <div class= "row product-description">
-<h1 class= "magic"> Make Aladdin jealous. </h1>
+<h1 class= "h1magic"> Make Aladdin jealous. </h1>
 <div class="col-md-6 img-product">
 <img src="https://duffylondon.com/wp-content/uploads/2014/03/product-image44-400x400.jpg" class= "img-circle img-responsive" alt="flyingcarpet">
 </div>
 <div class= "col-md-6 text-product">
-<p> Built with the latest magical technology of Area 51's Magic
+<p> Built with a brand new magical technology of Area 51's Magic
    Foundation, our carpets will provide you with a once-in-a-lifetime flying experience. </p>
 <p> Feel the unbelievable freedom of flying and discover the world. </p>
 <p> Experience the thrill of flying on one of our 4 different carpets. </p>
@@ -75,12 +76,12 @@ Be 100% invisible, fly at a fighter jet speed and experience a round-the-world
 </div>
 </div>
 <div class="row">
-<h2 id="details">Choose your carpet </h2>
+<h2 id="details-products" class= "h2choose">Choose your carpet </h2>
 </div><br>
 
 
         <!-- Pack 1-->
-         <div class="col-md-3" id="home-box">
+         <div class="col-md-3 col-12" id="home-box">
              <div class="pricing_header">
                  <h2>Solo</h2>
                  <div class="space"></div>
@@ -93,12 +94,12 @@ Be 100% invisible, fly at a fighter jet speed and experience a round-the-world
                      </ul>
 
                  <div class="try">
-                     <p class="price">$ 19 999</p>
+                     <p class="price">$ 150,000</p>
                      <a class="btn btn-default" href="#" type="button"> Book it !</a>
                  </div>
              </div>
          <!-- Pack 2-->
-         <div class="col-md-3" id="home-box">
+         <div class="col-md-3 col-xs-12" id="home-box">
              <div class="pricing_header">
                  <h2>Duo</h2>
                  <div class="space"></div>
@@ -110,7 +111,7 @@ Be 100% invisible, fly at a fighter jet speed and experience a round-the-world
                      </ul>
 
                  <div class="try">
-                     <p class="price">$ 44.99</p>
+                     <p class="price">$ 300,000 </p>
                      <a class="btn btn-default" href="#" type="button"> Book it !</a>
 
                  </div>
@@ -118,7 +119,7 @@ Be 100% invisible, fly at a fighter jet speed and experience a round-the-world
 
 
          <!-- Pack 3-->
-         <div class="col-md-3" id="home-box">
+         <div class="col-md-3 col-xs-12" id="home-box">
              <div class="pricing_header">
                  <h2>Family</h2>
                  <div class="space"></div>
@@ -132,20 +133,20 @@ Be 100% invisible, fly at a fighter jet speed and experience a round-the-world
                      </ul>
 
                  <div class="try">
-                     <p class="price">$ 79.99</p>
+                     <p class="price">$ 500,000 </p>
                      <button class="btn btn-default" href="#" type="button"> Book it !</button></li>
                  </div>
              </div>
 
 
          <!-- Pack 4-->
-         <div class="col-md-3" id="home-box">
+         <div class="col-md-3 col-xs-12" id="home-box">
              <div class="pricing_header">
-                 <h2>SuperSonic</h2>
+                 <h2 id= "h2-supersonic"> SuperSonic</h2>
                  <div class="space"></div>
 </div>
                  <ul class="list-group">
-                         <li class="list-group-item"><i class="fa fa-users" aria-hidden="true"></i> Up to 5 people </li>
+                         <li class="list-group-item"><i class="fa fa-users" aria-hidden="true"></i> For 2 people </li>
                          <li class="list-group-item"><i class="fa fa-clock-o" aria-hidden="true"></i> Up to 24 hours of autonomy </li>
                          <li class="list-group-item"><i class="fa fa-chevron-right" aria-hidden="true"></i> Maximum speed of 8000 km/h </li>
                          <li class="list-group-item"><i class="fa fa-eye-slash" aria-hidden="true"></i> Makes you invisible </li>
@@ -154,16 +155,16 @@ Be 100% invisible, fly at a fighter jet speed and experience a round-the-world
                      </ul>
 
                  <div class="try">
-                     <p class="price">$ 1 million </p>
+                     <p class="price">$ 200 million </p>
                      <button class="btn btn-default" href="#" type="button"> Book it !</button></li>
                  </div>
 
          </div>
      </div>
+</div>
 
-
-
-
+<script src="script.js" charset="utf-8"></script>
+</section> <!--section cecile -->
  <!-- CECILE ENDS -->
 
 </body>

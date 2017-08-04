@@ -1,5 +1,17 @@
 body {
 background-color: #FFF;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+pre {
+        tab-size: 8;
+    }
+
+
+#cecile {
+margin-top: 100px;
 }
 .container {
 padding-top: 40px;
@@ -7,13 +19,83 @@ font-family: 'Quicksand', sans-serif;
 margin-left: 10px;
 }
 
+//                 START NAVBAR !               //
+nav {
+  position: absolute;
+  top: 0;
+  z-index: 5;
 
-#details {
-font-family: "Quicksand", sans-serif; font-size: 30px;
+}
+
+
+.navbar-brand {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.navbar-nav a {
+color: $color-white;
+display: flex;
+justify-content: center;
+}
+.navbar-nav a:hover {
+  background-color: transparent !important;
+}
+
+.navbar-container {
+    padding: 20px 0 20px 0;
+
+}
+
+.navbar.navbar-fixed-top.fixed-theme {
+    background-color: #000000 ;
+    border-color: #080808 ;
+    box-shadow: 0 0 5px rgba(0,0,0,.8);
+}
+
+.navbar-brand.fixed-theme {
+    font-size: 18px;
+}
+
+.navbar-container.fixed-theme {
+    padding: 0;
+}
+
+.navbar-brand.fixed-theme,
+.navbar-container.fixed-theme,
+.navbar.navbar-fixed-top.fixed-theme,
+.navbar-brand,
+.navbar-container{
+    transition: 0.8s;
+    -webkit-transition:  0.8s;
+
+
+}
+
+
+
+#details-products {
+font-family: "Quicksand", sans-serif;
+font-size: 30px;
+justify-content: center;
+text-align: center;
+
+}
+
+.h2choose {
+font-weight:600;
+color: #000E2E ;
 }
 
 #home-box > h2 {
-font-family: "Quicksand", sans-serif; font-weight: 400; line-height: 1.1; color: #75b1ae;
+font-family: "Quicksand", sans-serif;
+font-weight: 400;
+line-height: 1.1;
+color: #75b1ae;
 }
 
 .price {
@@ -33,7 +115,8 @@ float: left;
      margin: 0px;
      font-family: "Quicksand", sans-serif;
      font-weight: 400;
-     color: #75b1ae;
+     color: #F4FFF9;
+     font-weight: 600;
     }
 
 .list-group-item:first-child {
@@ -44,9 +127,10 @@ float: left;
 .btn {
    float: right;
    font-family: "Quicksand", sans-serif;
-    font-weight:500;
+    font-weight: 600;
     background-color: #00B9D2;
     color: #FFFFFF;
+    text-transform: uppercase;
   }
 
 .off {
@@ -63,13 +147,26 @@ height: 2px;
 margin-top: 40px;
 font-size: 20px;
 line-height: 40px;
+text-align: justify;
 }
 
-.magic {
+.h1magic {
 font-size: 60px;
+margin-bottom: 50px;
+justify-content: center;
+text-align: center;
+color: #000E2E;
+}
+
+.img-circle {
+margin-top: 50px;
 }
 
 .bolder {
 font-weight: bold;
 color: #000E2E;
+}
+
+#h2-supersonic {
+float: none;
 }
